@@ -1,0 +1,19 @@
+{
+  "name": "vue-app-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasulejoseph/vue-app-webpack.git"
+  },
+  "author": "kasulejoseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kasulejoseph/vue-app-webpack/issues"
+  },
+  "homepage": "https://github.com/Kasulejoseph/vue-app-webpack#readme"
+}
