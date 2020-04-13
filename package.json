@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/Kasulejoseph/vue-app-webpack/issues"
   },
-  "homepage": "https://github.com/Kasulejoseph/vue-app-webpack#readme"
+  "homepage": "https://github.com/Kasulejoseph/vue-app-webpack#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "vue-loader": "^15.9.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
