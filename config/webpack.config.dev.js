@@ -19,7 +19,7 @@ module.exports = {
       },
 
       // css-loader to bundle all the css files into one file and vue-style-loader
-      // to add all the stylesinside the style tag of the document
+      // to add all the styles inside the <style> block in `.vue` file.
       {
         test: /\.css$/,
         use: ["vue-style-loader", "css-loader"]
@@ -32,5 +32,13 @@ module.exports = {
     path: path.join(__dirname, "../dist"),
     filename: "bundle.js"
   },
-  plugins: [new VueLoaderPlugin()]
+  devServer: {
+    contentBase: path.join(__dirname, "../public"),
+    port: 3000,
+    publicPath: "/dist/"
+  },
+  plugins: [
+    // make sure to include the plugin for the magic
+    new VueLoaderPlugin()
+  ]
 };
